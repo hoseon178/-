@@ -1,6 +1,7 @@
 .body {
   margin: 0;
   font-family: 'Oswald';
+  border-bottom:1px solid gray;
 }
 a{
   text-decoration: none;
