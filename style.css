@@ -7,6 +7,10 @@ a{
   font-weight: bold;
   color: black;
 }
+img {
+max-width: 24px;
+height: auto;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
