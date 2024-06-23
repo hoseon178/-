@@ -1,7 +1,8 @@
 .body {
   margin: 0;
   font-family: 'Oswald';
-  border-bottom:1px solid gray;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(220 220 220) 0px 2px 5px;
 }
 a{
   text-decoration: none;
