@@ -26,3 +26,6 @@ a{
 .navbar__menu li{
   padding: 8px 12px
 }
+.navbar__menu li:hover{
+  border-bottom:1px solid black;
+}
