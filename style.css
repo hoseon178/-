@@ -47,8 +47,7 @@ height: auto;
     cursor: pointer;
     background-color: white;
     color: black;
-    border: none;
-    outline: solid black;
+    border: solid 1px;
 }
 
 .menu-content {
