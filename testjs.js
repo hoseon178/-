@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // toggle 메뉴 열기/닫기
         if (menuContent.style.display === "block") {
             menuContent.style.display = "none";
-            menuButton.textContent = "메뉴 열기";
+            menuButton.textContent = "MENU";
         } else {
             menuContent.style.display = "block";
-            menuButton.textContent = "메뉴 닫기";
+            menuButton.textContent = "MENU";
         }
     });
 });
