@@ -83,3 +83,15 @@ height: auto;
 .menu-content ul li a:hover {
     color: #4CAF50;
 }
+
+.qwer0 {
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.qwer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
