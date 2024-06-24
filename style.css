@@ -2,11 +2,13 @@ body {
   margin: 0;
   font-family: 'Oswald';
 }
+
 a{
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
+
 h1 {
   display: flex;
   justify-content: center;
@@ -16,10 +18,12 @@ h1 {
   color: black; 
   margin: 0;
 }
+
 img {
 max-width: 24px;
 height: auto;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -79,15 +83,4 @@ height: auto;
 
 .menu-content ul li a:hover {
     color: #4CAF50;
-}
-.navbar__menu {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-.navbar__menu li{
-  padding: 8px 12px
-}
-.navbar__menu li:hover{
-  border-bottom:1px solid black;
 }
