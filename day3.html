@@ -1,1 +1,45 @@
-
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTP-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <title>주호의 공부저장소</title>
+</head>
+<body>
+  <main class="mp12qw">
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img src="y.png">
+        <a>Dev Y</a>
+      </div>
+      <h1>front-end study day3</h1>
+      <div class="menu">
+      <button id="menuButton">MENU</button>
+        <div id="menuContent" class="menu-content">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="article.html">Article</a></li>
+              <li><a href="test.html">Test</a></li>
+          </ul>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </nav>
+    <h2>제목: Javascript study day3</h2>
+    <h3>배열</h3>
+    <ul>
+      <li>length: (얼마나 많은 원소가 배열에 들어 있는지) 배열의 길이를 알아낼 수 있습니다.</li>
+      <li>split: 사용자가 원하는 매개변수로 문자열을 분리하여 배열로 표현해줍니다.</li>
+      <li>join: 배열을 다시 문자열로 만들 수 있습니다.</li>
+      <li>toString: toString() 은 join() 과 달리 매개변수가 필요없어서 더 간단하지만, 더 많은 제한이 있습니다. join() 을 사용하면 다른 구분자를 지정할 수 있지만, toString() 은 항상 콤마를 사용합니다.</li>
+      <li>push, pop: 배열의 맨 끝에 원소를 추가하거나 제거합니다.</li>
+      <li>unshift, shift: unshift와 shift는 push, pop과 완전히 동일하게 동작합니다. 다만, 배열의 맨 끝이 아닌 제일 처음 부분의 원소를 추가하거나 제거합니다.</li>
+    </ul>
+    <p>push와 pop 같은 배열 메서드의 좋은 사용은 웹 앱(web app)에서 현재 활동적인 원소(item)의 기록을 유지할 때입니다.</p>
+  </main>  
+</body>
+</html>
